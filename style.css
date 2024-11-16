@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.signin {
+    font-size: larger;
+background-color: red;
+color: white;
+padding: 0.5rem 40px;
+border: none;
+border-radius: 4px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+body {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0, 0.752), rgba(0,0,0,0.661)),
+    url(/NG-en-20241014-TRIFECTA-perspective_96f899b3-9bad-446e-80b9-4b1da6a2242e_large.jpg)
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 750px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 15px;
+    width: 60%;
+    font-size: 16px;
+    background: none;
+    border: 0.5px gray solidb;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.getstarted {
+    background-color:red;
+    width: 30%;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    margin-left: 0.9rem;
+}
